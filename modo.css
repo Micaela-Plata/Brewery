@@ -1,0 +1,25 @@
+body.light {
+    /* background-image: linear-gradient(to right top, #ec81ec, #ff6fc4, #ff6698, #ff696c, #fd7643, #f97443, #f57244, #f17044, #f56269, #ea5e8c, #d265ab, #af70c0); */
+    background-color: #fff;
+}
+
+body.light #mode {
+    background-position: left center;
+}
+
+body.light h3{
+    filter: invert(1)
+}
+
+body.light #carta_menu > ul > li > a {
+    filter: invert(1)
+}
+
+body.light aside {
+    background-color: #f57405;
+}
+
+body.light #more {
+    color: #000000;
+    font-weight: 500;
+}
